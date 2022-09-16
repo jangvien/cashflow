@@ -101,8 +101,8 @@ public class HomepageFragment extends Fragment {
             Locale myIndonesianLocale = new Locale("in", "ID");
             DecimalFormat format = (DecimalFormat) NumberFormat.getCurrencyInstance(myIndonesianLocale);
             format.setMaximumFractionDigits(2);
-            format.setPositivePrefix("Pemasukan Rp. ");
-            format.setNegativePrefix("Pemasukan Rp. -");
+            format.setPositivePrefix("Pengeluaran Rp. ");
+            format.setNegativePrefix("Pengeluaran Rp. -");
             binding.textPengeluaran.setText(format.format(nominalPengeluaran));
 
 //            binding.textPemasukan.setText("Pemasukan: " + String.valueOf(nominal));
